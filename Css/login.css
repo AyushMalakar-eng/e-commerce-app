@@ -1,0 +1,112 @@
+
+ * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body {
+      
+      height: 100vh;
+  
+     
+    }
+    .login-wrapper {
+      
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      /* color: white; */
+    }
+    .login-wrapper h2 {
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 1.8rem;
+    }
+    .subtitle {
+      text-align: center;
+      color: black;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+    }
+    .form-control { margin-bottom: 22px; }
+    .form-control label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+      color:black;
+      font-weight: 500;
+    }
+    .form-control input {
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      /* background: rgba(255, 255, 255, 0.08); */
+      color:black;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+    .form-control input:focus {
+      border-color: #38ef7d;
+      background: rgba(255, 255, 255, 0.18);
+      box-shadow: 0 0 10px rgba(56, 239, 125, 0.2);
+    }
+    .form-control input::placeholder { color: black; }
+    
+    .error-text {
+      color: #f87171;
+      font-size: 0.8rem;
+      margin-top: 5px;
+      min-height: 16px;
+    }
+    .forgot-btn {
+      color: black;
+      font-size: 0.85rem;
+      cursor: pointer;
+      float: right;
+      margin-top: 4px;
+      text-decoration: none;
+    }
+    .forgot-btn:hover { color: black; text-decoration: underline; }
+    
+    .submit-btn {
+      width: 100%;
+      background: #198c45;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease;
+      margin-top: 10px;
+    }
+    .submit-btn:hover { background: #22c55e; }
+    
+    .toggle-text {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: black;
+    }
+    .toggle-text a {
+      color: #38ef7d;
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .toggle-text a:hover { text-decoration: underline; }
+    
+    .footer-links { text-align: center; margin-top: 25px; }
+    .footer-links a { color: #94a3b8; text-decoration: none; font-size: 0.9rem; }
+    .footer-links a:hover { color: #38ef7d; text-decoration: underline; }
+    
+    
+    .hidden { display: none !important; }
+.login-page{
+  display: flex;
+ justify-content: center;
+ padding: 20px;
+}
+   

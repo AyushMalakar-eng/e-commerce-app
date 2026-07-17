@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> E-Commerce App</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/5bc1f17965.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="logo-container">
+    <h1>My Shop</h1>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="../index.html">Home</a>
+      <a href="pages/men.html">Men</a>
+      <a href="Womens.html">Women</a>
+      <a href="kids.html">Kids</a>
+      <a href="beauty.html"">Beauty</a>
+  
+    </nav>
+
+    <div class="search-bar">
+      <i class="ri-search-line"></i>
+      <input type="text" placeholder="Search for products, brands and more...">
+    </div>
+
+    <div class="action-bar">
+      <div class="action-container">
+        <i class="ri-user-3-line"></i>
+        <a href="profile.html" style="text-decoration: none; color: black;"><span class="action-item">Profile</span></a>
+      </div>
+    
+  <div class="action-container bag-icon-container">
+   <a href="../bag.html" id="baglink"> <i class="ri-shopping-bag-4-line"></i>
+        <span class="action-item" class="bag-item">Bag</span>
+        <span class="bag-item-count">0</span></a>
+
+      
+       
+      </div>
+  
+  </header>
+
+  <main>
+    
+
+    <!-- JS se items yahan inject honge -->
+    <div class="items-container" data-category = "kids"></div>
+  </main>
+
+  <!-- Data file pehle load hogi, fir main logic script -->
+  <script src="../data/items.js"></script>
+   
+  <script src="../js/myntra.js"></script>
+ 
+ 
+</body>
+</html>

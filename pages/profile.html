@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> E-Commerce App</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/5bc1f17965.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../Css/style.css">
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  .profile-page{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap:20px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 30px;
+  /* background-color: blanchedalmond; */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+
+
+  }
+  .profile{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    border-radius: 20px;
+  background-color: rgb(44, 225, 174, 0.5);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+
+
+  }
+  .profile:hover{
+  box-shadow: 0 0 25px rgba(229, 9, 20, 0.3);
+
+  }
+  .image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  .image img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .username h1 {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .username h3{
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .link{
+  background-color: rgb(44, 225, 174, 0.5);
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        padding: 20px;
+    gap: 5px;
+    height: 245px;
+    border-radius: 20px;
+
+  }
+  .link:hover{
+  box-shadow: 0 0 25px rgba(229, 9, 20, 0.3);
+
+  }
+  .login-container{
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 18px;
+    background-color: white;
+  }
+  .login a{
+    text-decoration: none;
+    color: black;
+  }
+  .order{
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 18px;
+  }
+  .order a{
+
+    text-decoration: none;
+    color: black;
+  }
+  @media (max-width: 650px) {
+    .profile-page{
+      flex-direction: column;
+      margin: auto;
+      padding: 20px;
+      width: 100%;
+      border-radius: 1px;
+    }
+    .profile{
+      width: 100%;
+      margin: 10px;
+      padding: 15px;
+      
+    }
+    .image img{
+      height: 100px;
+      width: 100px;
+    }
+    .image{
+      height: 100px;
+    width: 100px;
+    }
+    .username h1{
+      font-size: 1.8rem;
+    }
+    .username h3{
+      margin-left: 20px;
+    }
+    .link{
+      width: 100%;
+      
+    }
+  }
+  @media (min-width: 651px) and (max-width:1400px) {
+    .profile-page{
+      width: 100%;
+      margin: auto;
+      padding: 2px;
+      border-radius: 1px;
+      flex-direction: column;
+    }
+    .profile{
+      width: 70%;
+    }
+    .username h2{
+      font-size: 3rem;
+    }
+    .username h3{
+      font-size: 2rem;
+    }
+    .link{
+      width: 70%;
+    }
+  }
+</style>
+<body>
+  
+  <header>
+    <div class="logo-container">
+    <h1>My Shop</h1>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="../index.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="Womens.html">Women</a>
+      <a href="kids.html">Kids</a>
+      <a href="beauty.html">Beauty</a>
+    
+    </nav>
+
+    <div class="search-bar">
+      <i class="ri-search-line"></i>
+      <input type="text" placeholder="Search for products, brands and more...">
+    </div>
+
+    <div class="action-bar">
+ 
+  <div class="action-container bag-icon-container">
+   <a href="../bag.html" id="baglink"> <i class="ri-shopping-bag-4-line"></i>
+        <span class="action-item" class="bag-item">Bag</span>
+        <span class="bag-item-count">0</span></a>
+
+      
+       
+      </div>
+      
+  </header>
+
+  <main>
+    
+
+   
+     <div class="profile-page">
+  <div class="profile">
+    <div class="image">
+      
+      <img src="/myntra2/data/images/ayush.jpeg" alt="" class="img">
+    </div>
+    <div class="username">
+      <h3 >Account holder</h3>
+     <h1 class="user"></h1>
+    </div>
+  </div>
+  <div class="link">
+    <div class="login-container"><a href="../login.html" class="login"><button></button></a></div>
+
+    <div class="order"><a href="order.html">Order</div>
+  </div>
+  </div>
+  </main>
+
+
+
+ <script src="../js/myntra.js"></script>
+ <script>
+let username = document.querySelector('.user')
+let loginlink = document.querySelector('.login')
+let img = document.querySelector('.img')
+let loggedInuser = localStorage.getItem('loggedInUser')
+username.textContent = `${loggedInuser}`
+
+let isloggedin = localStorage.getItem('isLoggedIn')
+if(!loggedInuser){
+  username.textContent = "No user"
+  img.removeAttribute('src')
+  
+
+}
+
+if(isloggedin){
+loginlink.textContent = "Logout"
+}else{
+  loginlink.textContent = "Login"
+}
+loginlink.addEventListener('click', function(){
+  localStorage.removeItem('isLoggedIn')
+  localStorage.removeItem('loggedInUser')
+  
+  
+})
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce App</title>
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/5bc1f17965.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Css/login.css">
+  <link rel="stylesheet" href="Css/style.css">
+
+</head>
+<body>
+    <header>
+    <div class="logo-container">
+      <h1>My Shop</h1>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="pages/men.html">Men</a>
+      <a href="pages/Womens.html">Women</a>
+      <a href="pages/kids.html">Kids</a>
+      <a href="pages/beauty.html">Beauty</a>
+  
+    </nav>
+
+    <div class="search-bar">
+      <i class="ri-search-line"></i>
+      <input type="text" placeholder="Search for products, brands and more...">
+    </div>
+
+    <div class="action-bar">
+      <div class="action-container">
+        <i class="ri-user-3-line"></i>
+        <a href="pages/profile.html" style="text-decoration: none; color: black;"><span class="action-item">Profile</span></a>
+       </div> 
+      
+  <div class="action-container bag-icon-container">
+   <a href="bag.html" id="baglink"> <i class="ri-shopping-bag-4-line"></i>
+        <span class="action-item" class="bag-item">Bag</span>
+        <span class="bag-item-count">0</span></a>
+
+      
+       
+      </div>
+       <div class="action-container" >
+          <span class="action-item" id="action-item"></span>
+        </div>  
+      
+    </div>
+  </header>
+  <div class="login-page">
+  <div class="login-wrapper">
+   
+    
+    <!-- ================= SIGN IN (LOGIN) FORM ================= -->
+    <form id="loginForm">
+      <div class="form-control">
+        <label for="loginEnrollment">Username</label>
+        <input type="text" id="loginEnrollment" placeholder="Enter Registration ID" required>
+        <div class="error-text" id="loginUserError"></div>
+      </div>
+      
+      <div class="form-control" style="margin-bottom: 10px;">
+        <label for="loginPass">Password</label>
+        <input type="password" id="loginPass" placeholder="Enter Security Password" required>
+        <div class="error-text" id="loginPassError"></div>
+      </div>
+      
+      <button type="submit" class="submit-btn">Sign In</button>
+      
+      <p class="toggle-text">
+        New User? <a id="linkToSignUp">Create an account</a>
+      </p>
+    </form>
+
+    <!-- ================= SIGN UP (REGISTRATION) FORM ================= -->
+    <form id="signupForm" class="hidden">
+      <div class="form-control">
+        <label for="signupEnrollment">Username </label>
+        <input type="text" id="signupEnrollment" placeholder="Create Registration ID" required>
+        <div class="error-text" id="signupUserError"></div>
+      </div>
+      
+      <div class="form-control">
+        <label for="signupPass">Password</label>
+        <input type="password" id="signupPass" placeholder="Create Security Password" required>
+        <div class="error-text" id="signupPassError"></div>
+      </div>
+
+      <div class="form-control" style="margin-bottom: 10px;">
+        <label for="signupConfirmPass">Confirm Password</label>
+        <input type="password" id="signupConfirmPass" placeholder="Confirm Security Password" required>
+        <div class="error-text" id="signupConfirmPassError"></div>
+      </div>
+      
+      <button type="submit" class="submit-btn">Register & Sign Up</button>
+      
+      <p class="toggle-text">
+        Already registered? <a id="linkToLogin">Sign In here</a>
+      </p>
+    </form>
+    
+   
+  </div>
+</div>
+   <!-- <script src="bag.js"></script> -->
+   <script src="js/login.js"></script>
+  <script src="js/myntra.js"></script>
+</body>
+</html>

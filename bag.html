@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce App</title>
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="Css/bag.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/5bc1f17965.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <div class="logo-container">
+      <h1>My Shop</h1>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="pages/men.html">Men</a>
+      <a href="pages/Womens.html">Women</a>
+      <a href="pages/kids.html">Kids</a>
+      <a href="pages/beauty.html">Beauty</a>
+   
+    </nav>
+
+    <div class="search-bar">
+      <i class="ri-search-line"></i>
+      <input type="text" placeholder="Search for products, brands and more...">
+    </div>
+
+    <div class="action-bar">
+      <div class="action-container">
+        <i class="ri-user-3-line"></i>
+       <a href="pages/profile.html" style="text-decoration: none; color:black"><span class="action-item">Profile</span></a>
+      </div>
+      
+      <div class="action-container bag-icon-container">
+        <i class="ri-shopping-bag-4-line"></i>
+        <span class="action-item">Bag</span>
+        <span class="bag-item-count">0</span>
+      </div>
+   
+  </header>
+  <main>
+    <div class="bag-page">
+    <h1 class="empty-message">No Items Added</h1>
+      <div class="bag-items-container">
+       
+      </div>
+      <div class="bag-summary">
+
+      </div>
+   <div class="form-container">
+    <form  class="form">
+      <input type="text" placeholder="Your Name"> <br>
+      <input type="text" placeholder="your Address"><br>
+      <input type="number" placeholder="Your Phone Number">
+    </form>
+   </div>
+   </div>
+   
+  </main>
+
+
+
+
+
+  <script src="data/items.js"></script>
+  <script src="js/myntra.js"></script>
+  <script src="js/bag.js"></script>
+
+</body>
+</html>

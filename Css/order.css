@@ -1,0 +1,109 @@
+
+
+.order-container{
+ 
+  display:inline-block;
+  width: 350px;
+  padding-right: 10px;
+  border-right: 1px solid #eaeaec;
+  padding-top: 20px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+  padding: 30px;
+  
+  background-color: white;
+border-radius: 10px ;
+
+}
+.item-left-part {
+/* 
+  background: rgb(255, 242, 223); */
+  height: 308px;
+  
+  margin-right: 5px; 
+  
+  
+}
+.order-page{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  padding: 25px;
+
+}
+
+
+ .item-right-part{
+  padding: 10px;
+  font-size: 1rem;
+  margin: 3px;
+ }
+.bag-item-img {
+  width: 100%;
+  height: 300px;
+}
+.company_name{
+  font-weight: 600;
+  margin: 4px;
+}
+.item{
+  font-weight: 600;
+  margin: 4px;
+}
+.amount{
+  font-weight: 600;
+  margin: 4px;
+}
+.return-time{
+  font-weight: 600;
+  margin: 4px;
+}
+
+.address{
+  font-size:1.5rem;
+
+ margin-left: 18px;
+}
+.h{
+margin-left: 18px;
+}
+
+
+@media (max-width:700px) {
+  .order-page{
+    width: 100%;
+    justify-content: center;
+  }
+  .order-container{
+    width: 100%;
+  }
+}
+@media (min-width:701px) and (max-width:1000px) {
+  .order-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .order-container{
+    width: 100%;
+  }
+}
+@media (min-width:1001px)  {
+   .order-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  .order-container{
+    width: 100%;
+  }
+}
+
+
+.emptyOrder{
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+  display: none;
+}
