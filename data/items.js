@@ -1,8 +1,7 @@
-
 let items= [
   {
     id : 1,
-    image : "/myntra2/data/images/1.jpg" ,
+    image : "data/images/1.jpg" ,
     rating :{
       stars : 4.5,
       count : 1400,
@@ -19,7 +18,7 @@ let items= [
   },
   {
     id :2,
-    image : "/myntra2/data/images/men4.jpg" ,
+    image : "data/images/men4.jpg" ,
     rating :{
       stars : 4.5,
       count : 100,
@@ -34,7 +33,7 @@ let items= [
   },
   {
     id :3,
-    image : "/myntra2/data/images/3.jpg" ,
+    image : "data/images/3.jpg" ,
     rating :{
       stars : 3.5,
       count : 1000,
@@ -48,7 +47,7 @@ let items= [
   },
   {
     id :4,
-    image : "/myntra2/data/images/4.jpg" ,
+    image : "data/images/4.jpg" ,
     rating :{
       stars : 4.8,
       count : 700,
@@ -62,7 +61,7 @@ let items= [
   },
    {
     id :5,
-    image : "/myntra2/data/images/5.jpg" ,
+    image : "data/images/5.jpg" ,
     rating :{
       stars : 4.6,
       count : 900,
@@ -76,7 +75,7 @@ let items= [
   },
    {
     id :6,
-    image : "/myntra2/data/images/men4.jpg" ,
+    image : "data/images/men4.jpg" ,
     rating :{
       stars : 4.9,
       count : 900,
@@ -90,7 +89,7 @@ let items= [
   },
   {
     id :7,
-    image : "/myntra2/data/images/men7.jpg" ,
+    image : "data/images/men7.jpg" ,
     rating :{
       stars : 4.9,
       count : 500,
@@ -105,7 +104,7 @@ let items= [
   },
    {
     id :8,
-    image : "/myntra2/data/images/men8.jpg" ,
+    image : "data/images/men8.jpg" ,
     rating :{
       stars : 3.5,
       count : 450,
@@ -120,7 +119,7 @@ let items= [
   },
    {
     id :9,
-    image : "/myntra2/data/images/men1.webp" ,
+    image : "data/images/men1.webp" ,
     rating :{
       stars : 2.9,
       count : 100,
@@ -135,7 +134,7 @@ let items= [
   },
   {
     id :10,
-    image : "/myntra2/data/images/men3.jpg" ,
+    image : "data/images/men3.jpg" ,
     rating :{
       stars : 4.9,
       count : '1k',
@@ -150,7 +149,7 @@ let items= [
   },
   {
     id : 11,
-    image : "/myntra2/data/images/men5.jpg" ,
+    image : "data/images/men5.jpg" ,
     rating :{
       stars : 4.9,
       count : 250,
@@ -165,7 +164,7 @@ let items= [
   },
    {
     id :12,
-    image : "/myntra2/data/images/men2.webp" ,
+    image : "data/images/men2.webp" ,
     rating :{
       stars : 2.1,
       count : 100,
@@ -180,7 +179,7 @@ let items= [
   },
   {
     id :13,
-    image : "/myntra2/data/images/men11.jpg" ,
+    image : "data/images/men11.jpg" ,
     rating :{
       stars : 2.5,
       count : 100,
@@ -195,7 +194,7 @@ let items= [
   },
   {
     id :14,
-    image : "/myntra2/data/images/men13.jpg" ,
+    image : "data/images/men13.jpg" ,
     rating :{
       stars : 2.2,
       count : 300,
@@ -210,7 +209,7 @@ let items= [
   },
    {
     id :15,
-    image : "/myntra2/data/images/men14.jpg" ,
+    image : "data/images/men14.jpg" ,
     rating :{
       stars : 3.5,
       count : 99,
@@ -225,7 +224,7 @@ let items= [
   }, 
   {
     id :16,
-    image : "/myntra2/data/images/men15.jpg" ,
+    image : "data/images/men15.jpg" ,
     rating :{
       stars : 4.9,
       count : 800,
@@ -240,7 +239,7 @@ let items= [
   }, 
   {
     id :17,
-    image : "/myntra2/data/images/men16.jpg" ,
+    image : "data/images/men16.jpg" ,
     rating :{
       stars : 3.9,
       count : 80,
@@ -255,7 +254,7 @@ let items= [
   },
  {
     id :18,
-    image : "/myntra2/data/images/men17.jpg" ,
+    image : "data/images/men17.jpg" ,
     rating :{
       stars : 3.9,
       count : 569,
@@ -270,7 +269,7 @@ let items= [
   },
    {
     id :19,
-    image : "/myntra2/data/images/men18.jpg" ,
+    image : "data/images/men18.jpg" ,
     rating :{
       stars : 4.9,
       count : 800,
@@ -285,7 +284,7 @@ let items= [
   },
    {
     id :20,
-    image : "/myntra2/data/images/men19.jpg" ,
+    image : "data/images/men19.jpg" ,
     rating :{
       stars : 2.9,
       count : 100,
@@ -300,7 +299,7 @@ let items= [
   },
    {
     id :21,
-    image : "/myntra2/data/images/men20.jpg" ,
+    image : "data/images/men20.jpg" ,
     rating :{
       stars : 2.9,
       count : 100,
@@ -315,7 +314,7 @@ let items= [
   },
    {
     id: 22,
-    image: "/myntra2/data/images/womensaree2.jpg",
+    image: "data/images/womensaree2.jpg",
     rating: {
       stars: 4.5,
       count: 310
@@ -329,7 +328,7 @@ let items= [
   },
    {
     id: 23,
-    image: "/myntra2/data/images/womensaree4.jpg",
+    image: "data/images/womensaree4.jpg",
     rating: {
       stars: 3.9,
       count: 85
@@ -343,7 +342,7 @@ let items= [
   },
     {
     id: 24,
-    image: "/myntra2/data/images/womensaree3.jpg",
+    image: "data/images/womensaree3.jpg",
     rating: {
       stars: 4.0,
       count: 130
@@ -357,7 +356,7 @@ let items= [
   },
    {
     id: 25,
-    image: "/myntra2/data/images/womensaree1.jpg",
+    image: "data/images/womensaree1.jpg",
     rating: {
       stars: 4.3,
       count: 160
@@ -371,7 +370,7 @@ let items= [
   },
   {
     id: 26,
-    image: "/myntra2/data/images/womensaree5.jpg",
+    image: "data/images/womensaree5.jpg",
     rating: {
       stars: 4.1,
       count: 88
@@ -385,7 +384,7 @@ let items= [
   },
   {
     id: 27,
-    image: "/myntra2/data/images/womentop1.jpg",
+    image: "data/images/womentop1.jpg",
     rating: {
       stars: 3.5,
       count: 60
@@ -399,7 +398,7 @@ let items= [
   },
     {
     id: 28,
-    image: "/myntra2/data/images/womentop2.jpg",
+    image: "data/images/womentop2.jpg",
     rating: {
       stars: 4.4,
       count: 275
@@ -413,7 +412,7 @@ let items= [
   },
   {
     id: 29,
-    image: "/myntra2/data/images/womentop3.jpg",
+    image: "data/images/womentop3.jpg",
     rating: {
       stars: 4.5,
       count: 340
@@ -427,7 +426,7 @@ let items= [
   },
    {
     id: 30,
-    image: "/myntra2/data/images/womentop4.jpg",
+    image: "data/images/womentop4.jpg",
     rating: {
       stars: 4.7,
       count: 280
@@ -441,7 +440,7 @@ let items= [
   },
    {
     id: 31,
-    image: "/myntra2/data/images/womentop5.jpg",
+    image: "data/images/womentop5.jpg",
     rating: {
       stars: 4.4,
       count: 210
@@ -455,7 +454,7 @@ let items= [
   },
    {
     id: 32,
-    image: "/myntra2/data/images/womenjeans1.jpg",
+    image: "data/images/womenjeans1.jpg",
     rating: {
       stars: 3.8,
       count: 150
@@ -469,7 +468,7 @@ let items= [
   },
     {
     id: 33,
-    image: "/myntra2/data/images/womenjeans.jpg",
+    image: "data/images/womenjeans.jpg",
     rating: {
       stars: 4.3,
       count: 420
@@ -483,7 +482,7 @@ let items= [
   },
   {
     id: 34,
-    image: "/myntra2/data/images/womenjeans4.jpg",
+    image: "data/images/womenjeans4.jpg",
     rating: {
       stars: 4.2,
       count: 190
@@ -497,7 +496,7 @@ let items= [
   },
    {
     id: 35,
-    image: "/myntra2/data/images/womenjeans5.jpg",
+    image: "data/images/womenjeans5.jpg",
     rating: {
       stars: 3.9,
       count: 145
@@ -511,7 +510,7 @@ let items= [
   },
    {
     id: 36,
-    image: "/myntra2/data/images/womenjeans3.jpg",
+    image: "data/images/womenjeans3.jpg",
     rating: {
       stars: 4.3,
       count: 195
@@ -525,7 +524,7 @@ let items= [
   },
   {
     id: 37,
-    image: "/myntra2/data/images/womenslipper2.jpg",
+    image: "data/images/womenslipper2.jpg",
     rating: {
       stars: 4.2,
       count: 240
@@ -539,7 +538,7 @@ let items= [
   },
  {
     id: 38,
-    image: "/myntra2/data/images/womenslipper1.jpg",
+    image: "data/images/womenslipper1.jpg",
     rating: {
       stars: 4.0,
       count: 180
@@ -553,7 +552,7 @@ let items= [
   },
   {
     id: 39,
-    image: "/myntra2/data/images/womenslipper6.jpg",
+    image: "data/images/womenslipper6.jpg",
     rating: {
       stars: 3.7,
       count: 110
@@ -567,7 +566,7 @@ let items= [
   },
   {
     id: 40,
-    image: "/myntra2/data/images/womenslipper5.jpg",
+    image: "data/images/womenslipper5.jpg",
     rating: {
       stars: 4.1,
       count: 220
@@ -581,7 +580,7 @@ let items= [
   },
   {
     id: 41,
-    image: "/myntra2/data/images/womenslipper3.jpg",
+    image: "data/images/womenslipper3.jpg",
     rating: {
       stars: 4.0,
       count: 105
@@ -595,7 +594,7 @@ let items= [
   },
   {
     id: 42,
-    image: "/myntra2/data/images/womenshoes1.jpg",
+    image: "data/images/womenshoes1.jpg",
     rating: {
       stars: 4.1,
       count: 95
@@ -613,7 +612,7 @@ let items= [
  
   {
     id: 43,
-    image: "/myntra2/data/images/womenshoes2.webp",
+    image: "data/images/womenshoes2.webp",
     rating: {
       stars: 4.6,
       count: 510
@@ -631,7 +630,7 @@ let items= [
 
   {
     id: 44,
-    image: "/myntra2/data/images/womenshoes3.jpg",
+    image: "data/images/womenshoes3.jpg",
     rating: {
       stars: 3.6,
       count: 75
@@ -649,7 +648,7 @@ let items= [
  
   {
     id: 45,
-    image: "/myntra2/data/images/womenshoes4.jpg",
+    image: "data/images/womenshoes4.jpg",
     rating: {
       stars: 3.4,
       count: 50
@@ -667,7 +666,7 @@ let items= [
   
   {
     id: 46,
-    image: "/myntra2/data/images/womenshoes5.jpg",
+    image: "data/images/womenshoes5.jpg",
     rating: {
       stars: 3.9,
       count: 142
@@ -681,7 +680,7 @@ let items= [
   },
   {
     id: 47,
-    image: "/myntra2/data/images/womenshoes3.jpg",
+    image: "data/images/womenshoes3.jpg",
     rating: {
       stars: 3.6,
       count: 75
@@ -695,7 +694,7 @@ let items= [
   },
 {
     id: 48,
-    image: "/myntra2/data/images/womenslipper5.jpg",
+    image: "data/images/womenslipper5.jpg",
     rating: {
       stars: 4.1,
       count: 220
@@ -709,7 +708,7 @@ let items= [
   },
     {
     id: 49,
-    image: "/myntra2/data/images/womenjeans4.jpg",
+    image: "data/images/womenjeans4.jpg",
     rating: {
       stars: 4.2,
       count: 190
@@ -723,7 +722,7 @@ let items= [
   },
   {
     id: 50,
-    image: "/myntra2/data/images/womentop3.jpg",
+    image: "data/images/womentop3.jpg",
     rating: {
       stars: 4.5,
       count: 340
@@ -737,7 +736,7 @@ let items= [
   },
  {
     id: 51,
-    image: "/myntra2/data/images/womensaree5.jpg",
+    image: "data/images/womensaree5.jpg",
     rating: {
       stars: 4.1,
       count: 88
@@ -752,7 +751,7 @@ let items= [
   
   {
     id: 52,
-    image: "/myntra2/data/images/girlimage1.jpg",
+    image: "data/images/girlimage1.jpg",
     rating: { stars: 4.3, count: 120 },
     category: "kids",
     company: "DressBerry Kids",
@@ -763,7 +762,7 @@ let items= [
   },
   {
     id: 53,
-    image: "/myntra2/data/images/girlimage2.jpg",
+    image: "data/images/girlimage2.jpg",
     rating: { stars: 4.1, count: 85 },
     category: "kids",
     company: "H&M",
@@ -774,7 +773,7 @@ let items= [
   },
   {
     id: 54,
-    image: "/myntra2/data/images/girlimage3.jpg",
+    image: "data/images/girlimage3.jpg",
     rating: { stars: 4.5, count: 140 },
     category: "kids",
     company: "Cutecumber",
@@ -785,7 +784,7 @@ let items= [
   },
   {
     id: 55,
-    image: "/myntra2/data/images/girljeans1.jpg",
+    image: "data/images/girljeans1.jpg",
     rating: { stars: 4.0, count: 95 },
     category: "kids home",
     company: "Levis Kids",
@@ -796,7 +795,7 @@ let items= [
   },
   {
     id: 56,
-    image: "/myntra2/data/images/girlijeans2.jpg",
+    image: "data/images/girlijeans2.jpg",
     rating: { stars: 3.8, count: 60 },
     category: "kids",
     company: "Gini & Jony",
@@ -807,7 +806,7 @@ let items= [
   },
   {
     id: 57,
-    image: "/myntra2/data/images/girljeans3.jpg",
+    image: "data/images/girljeans3.jpg",
     rating: { stars: 4.2, count: 110 },
     category: "kids",
     company: "Allen Solly Junior",
@@ -818,7 +817,7 @@ let items= [
   },
   {
     id: 58,
-    image: "/myntra2/data/images/girlslipper1.png",
+    image: "data/images/girlslipper1.png",
     rating: { stars: 3.9, count: 75 },
     category: "kids",
     company: "Flite",
@@ -829,7 +828,7 @@ let items= [
   },
   {
     id: 59,
-    image: "/myntra2/data/images/girlslipper2.jpg",
+    image: "data/images/girlslipper2.jpg",
     rating: { stars: 4.4, count: 130 },
     category: "kids home",
     company: "Crocs Kids",
@@ -840,7 +839,7 @@ let items= [
   },
   {
     id: 60,
-    image: "/myntra2/data/images/girlslipper3.jpg",
+    image: "data/images/girlslipper3.jpg",
     rating: { stars: 3.6, count: 45 },
     category: "kids",
     company: "Bata",
@@ -851,7 +850,7 @@ let items= [
   },
   {
     id: 61,
-    image: "/myntra2/data/images/girlshoes1.jpg",
+    image: "data/images/girlshoes1.jpg",
     rating: { stars: 4.6, count: 210 },
     category: "kids home",
     company: "Puma Kids",
@@ -862,7 +861,7 @@ let items= [
   },
   {
     id: 62,
-    image: "/myntra2/data/images/girlshoes2.jpg",
+    image: "data/images/girlshoes2.jpg",
     rating: { stars: 4.1, count: 90 },
     category: "kids",
     company: "Adidas",
@@ -873,7 +872,7 @@ let items= [
   },
   {
     id: 63,
-    image: "/myntra2/data/images/girlshoes3.jpg",
+    image: "data/images/girlshoes3.jpg",
     rating: { stars: 4.3, count: 115 },
     category: "kids",
     company: "Red Tape",
@@ -885,7 +884,7 @@ let items= [
 
   {
     id: 64,
-    image: "/myntra2/data/images/boyshirt1.jpg",
+    image: "data/images/boyshirt1.jpg",
     rating: { stars: 4.2, count: 160 },
     category: "kids",
     company: "U.S. Polo Kids",
@@ -896,7 +895,7 @@ let items= [
   },
   {
     id: 65,
-    image: "/myntra2/data/images/boyshirt2.jpg",
+    image: "data/images/boyshirt2.jpg",
     rating: { stars: 4.0, count: 105 },
     category: "kids home",
     company: "Roadster Kids",
@@ -907,7 +906,7 @@ let items= [
   },
   {
     id: 66,
-    image: "/myntra2/data/images/boyshirt3.jpg",
+    image: "data/images/boyshirt3.jpg",
     rating: { stars: 4.4, count: 145 },
     category: "kids",
     company: "Tommy Hilfiger",
@@ -918,7 +917,7 @@ let items= [
   },
   {
     id: 67,
-    image: "/myntra2/data/images/boyjeans1.jpg",
+    image: "data/images/boyjeans1.jpg",
     rating: { stars: 4.3, count: 180 },
     category: "kids home",
     company: "Spykar Kids",
@@ -929,7 +928,7 @@ let items= [
   },
   {
     id: 68,
-    image: "/myntra2/data/images/boyjeans2.jpg",
+    image: "data/images/boyjeans2.jpg",
     rating: { stars: 3.9, count: 70 },
     category: "kids",
     company: "Pepe Jeans",
@@ -940,7 +939,7 @@ let items= [
   },
   {
     id: 69,
-    image: "/myntra2/data/images/boyjeans3.jpg",
+    image: "data/images/boyjeans3.jpg",
     rating: { stars: 4.1, count: 125 },
     category: "kids",
     company: "Jack & Jones Junior",
@@ -951,7 +950,7 @@ let items= [
   },
   {
     id: 70,
-    image: "/myntra2/data/images/boyslipper1.jpg",
+    image: "data/images/boyslipper1.jpg",
     rating: { stars: 3.5, count: 55 },
     category: "kids",
     company: "Paragon",
@@ -962,7 +961,7 @@ let items= [
   },
   {
     id: 71,
-    image: "/myntra2/data/images/boyslipper2.jpg",
+    image: "data/images/boyslipper2.jpg",
     rating: { stars: 4.2, count: 95 },
     category: "kids",
     company: "Sparx",
@@ -973,7 +972,7 @@ let items= [
   },
   {
     id: 72,
-    image: "/myntra2/data/images/boyslipper4.jpg",
+    image: "data/images/boyslipper4.jpg",
     rating: { stars: 4.5, count: 150 },
     category: "kids",
     company: "Crocs Kids",
@@ -984,7 +983,7 @@ let items= [
   },
   {
     id: 73,
-    image: "/myntra2/data/images/boyslipper3.jpg",
+    image: "data/images/boyslipper3.jpg",
     rating: { stars: 4.4, count: 230 },
     category: "kids",
     company: "Campus",
@@ -995,7 +994,7 @@ let items= [
   },
   {
     id: 74,
-    image: "/myntra2/data/images/boyshoes2.jpg",
+    image: "data/images/boyshoes2.jpg",
     rating: { stars: 4.0, count: 80 },
     category: "kids",
     company: "Nike",
@@ -1006,7 +1005,7 @@ let items= [
   },
   {
     id: 75,
-    image: "/myntra2/data/images/boyshoes3.jpg",
+    image: "data/images/boyshoes3.jpg",
     rating: { stars: 4.7, count: 310 },
     category: "kids home",
     company: "Puma Kids",
@@ -1017,7 +1016,7 @@ let items= [
   },
   {
     id: 76,
-    image: "/myntra2/data/images/boysshoes4.jpg",
+    image: "data/images/boysshoes4.jpg",
     rating: { stars: 4.2, count: 140 },
     category: "kids",
     company: "HRX by Hrithik Roshan",
@@ -1029,7 +1028,7 @@ let items= [
   
   {
     id: 77,
-    image: "/myntra2/data/images/beauty1.jpg",
+    image: "data/images/beauty1.jpg",
     rating: { stars: 4.5, count: 1250 },
     category: "beauty",
     company: "Maybelline New York",
@@ -1040,7 +1039,7 @@ let items= [
   },
   {
     id: 88,
-    image: "/myntra2/data/images/beauty2.jpg",
+    image: "data/images/beauty2.jpg",
     rating: { stars: 4.3, count: 840 },
     category: "beauty",
     company: "The Derma Co",
@@ -1051,7 +1050,7 @@ let items= [
   },
   {
     id: 89,
-    image: "/myntra2/data/images/beauty3.jpg",
+    image: "data/images/beauty3.jpg",
     rating: { stars: 4.6, count: 2100 },
     category: "beauty",
     company: "L'Oreal Paris",
@@ -1062,7 +1061,7 @@ let items= [
   },
   {
     id: 90,
-    image: "/myntra2/data/images/beauty4.jpg",
+    image: "data/images/beauty4.jpg",
     rating: { stars: 4.4, count: 1560 },
     category: "beauty",
     company: "Mamaearth",
@@ -1073,7 +1072,7 @@ let items= [
   },
   {
     id: 91,
-    image: "/myntra2/data/images/beauty5.jpg",
+    image: "data/images/beauty5.jpg",
     rating: { stars: 4.2, count: 620 },
     category: "beauty",
     company: "Biotique",
@@ -1084,7 +1083,7 @@ let items= [
   },
   {
     id: 92,
-    image: "/myntra2/data/images/beauty6.jpg",
+    image: "data/images/beauty6.jpg",
     rating: { stars: 4.7, count: 3400 },
     category: "beauty",
     company: "M.A.C",
@@ -1095,7 +1094,7 @@ let items= [
   },
   {
     id: 93,
-    image: "/myntra2/data/images/beauty7.jpg",
+    image: "data/images/beauty7.jpg",
     rating: { stars: 4.1, count: 480 },
     category: "beauty",
     company: "Beardo",
@@ -1106,7 +1105,7 @@ let items= [
   },
   {
     id: 94,
-    image: "/myntra2/data/images/beauty8.jpg",
+    image: "data/images/beauty8.jpg",
     rating: { stars: 4.4, count: 950 },
     category: "beauty",
     company: "Lakme",
@@ -1117,7 +1116,7 @@ let items= [
   },
   {
     id: 95,
-    image: "/myntra2/data/images/beauty9.jpg",
+    image: "data/images/beauty9.jpg",
     rating: { stars: 4.5, count: 1890 },
     category: "beauty",
     company: "Cetaphil",
@@ -1128,7 +1127,7 @@ let items= [
   },
   {
     id: 96,
-    image: "/myntra2/data/images/beauty10.jpg",
+    image: "data/images/beauty10.jpg",
     rating: { stars: 4.3, count: 710 },
     category: "beauty",
     company: "Plum",
@@ -1139,7 +1138,7 @@ let items= [
   },
   {
     id: 97,
-    image: "/myntra2/data/images/beauty11.jpg",
+    image: "data/images/beauty11.jpg",
     rating: { stars: 4.6, count: 1120 },
     category: "beauty",
     company: "Neutrogena",
@@ -1150,7 +1149,7 @@ let items= [
   },
   {
     id: 98,
-    image: "/myntra2/data/images/beauty12.jpg",
+    image: "data/images/beauty12.jpg",
     rating: { stars: 4.2, count: 530 },
     category: "beauty",
     company: "Ustraa",
@@ -1161,7 +1160,7 @@ let items= [
   },
   {
     id: 99,
-    image: "/myntra2/data/images/beauty13.jpg",
+    image: "data/images/beauty13.jpg",
     rating: { stars: 4.4, count: 1340 },
     category: "beauty",
     company: "Sugar Cosmetics",
@@ -1172,7 +1171,7 @@ let items= [
   },
   {
     id: 100,
-    image: "/myntra2/data/images/beauty14.jpg",
+    image: "data/images/beauty14.jpg",
     rating: { stars: 4.5, count: 2800 },
     category: "beauty",
     company: "The Body Shop",
@@ -1183,7 +1182,7 @@ let items= [
   },
   {
     id: 101,
-    image: "/myntra2/data/images/beauty15.jpg",
+    image: "data/images/beauty15.jpg",
     rating: { stars: 4.3, count: 410 },
     category: "beauty",
     company: "Bombay Shaving Company",
@@ -1194,7 +1193,7 @@ let items= [
   },
   {
     id: 102,
-    image: "/myntra2/data/images/beauty16.jpg",
+    image: "data/images/beauty16.jpg",
     rating: { stars: 4.4, count: 890 },
     category: "beauty",
     company: "Nivea",
@@ -1205,7 +1204,7 @@ let items= [
   },
   {
     id: 103,
-    image: "/myntra2/data/images/beauty17.jpg",
+    image: "data/images/beauty17.jpg",
     rating: { stars: 4.7, count: 670 },
     category: "beauty",
     company: "Forest Essentials",
@@ -1216,7 +1215,7 @@ let items= [
   },
   {
     id: 104,
-    image: "/myntra2/data/images/beauty18.jpg",
+    image: "data/images/beauty18.jpg",
     rating: { stars: 4.1, count: 320 },
     category: "beauty",
     company: "Park Avenue",
@@ -1227,7 +1226,7 @@ let items= [
   },
   {
     id: 105,
-    image: "/myntra2/data/images/beauty19.jpg",
+    image: "data/images/beauty19.jpg",
     rating: { stars: 4.5, count: 1450 },
     category: "beauty",
     company: "Minimalist",
@@ -1238,7 +1237,7 @@ let items= [
   },
   {
     id: 106,
-    image: "/myntra2/data/images/beauty20.jpg",
+    image: "data/images/beauty20.jpg",
     rating: { stars: 4.3, count: 980 },
     category: "beauty",
     company: "Faces Canada",
@@ -1249,7 +1248,7 @@ let items= [
   },
   {
     id: 107,
-    image: "/myntra2/data/images/beauty21.webp",
+    image: "data/images/beauty21.webp",
     rating: { stars: 4.6, count: 1670 },
     category: "beauty",
     company: "Kama Ayurveda",
@@ -1260,7 +1259,7 @@ let items= [
   },
   {
     id: 108,
-    image: "/myntra2/data/images/beauty22.jpg",
+    image: "data/images/beauty22.jpg",
     rating: { stars: 4.2, count: 510 },
     category: "beauty",
     company: "Gillette",
@@ -1271,7 +1270,7 @@ let items= [
   },
   {
     id: 109,
-    image: "/myntra2/data/images/beauty23.jpg",
+    image: "data/images/beauty23.jpg",
     rating: { stars: 4.4, count: 730 },
     category: "beauty",
     company: "Colorbar",
@@ -1282,7 +1281,7 @@ let items= [
   },
   {
     id: 110,
-    image: "/myntra2/data/images/beauty24.jpg",
+    image: "data/images/beauty24.jpg",
     rating: { stars: 4.5, count: 1150 },
     category: "beauty",
     company: "Tresemme",
