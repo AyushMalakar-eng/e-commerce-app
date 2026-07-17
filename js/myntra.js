@@ -145,7 +145,7 @@ input.addEventListener('input' , function(e){
     
     htmlString +=` <div class="item-container">
 
-        <img class="item-image"src="${item.image}" alt="">
+        <img class="item-image" src="${window.location.pathname.includes('/pages/') ? '../' + item.image : item.image}" alt="">
         
         <div class="rating">
          ${item.rating.stars} | ${item.rating.count}
