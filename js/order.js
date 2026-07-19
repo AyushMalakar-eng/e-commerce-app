@@ -1,7 +1,17 @@
 let loadOrderItem;
 let orderItems;
+
  function onload(){
-let orderItemStr = localStorage.getItem("orderItem")
+let currentUser = localStorage.getItem('loggedInUser')
+  let checkLogged = localStorage.getItem('isLoggedIn') === "true"
+  if(!checkLogged){
+    alert('Please login first')
+    window.location.href = window.location.pathname.includes('/pages/') ? '../login.html' : 'login.html'
+    return
+  }
+
+
+let orderItemStr = localStorage.getItem(`orderItem_${currentUser}`)
  orderItems = orderItemStr ? JSON.parse(orderItemStr):[];
   
    
@@ -39,7 +49,7 @@ let orderItemStr = localStorage.getItem("orderItem")
   return `
     <div class="order-container">
     <div class="item-left-part">
-            <img src="${window.location.pathname.includes('/pages/') ? '../' + item.image : item.image}" alt="" class="bag-item-img">
+            <img src=${item.image} alt="" class="bag-item-img">
           </div>
           <div class="item-right-part">
             <div class="company_name">${item.company}</div>
